@@ -87,3 +87,12 @@ Créez à partir de ce fichier un nouvel utilisateur.
 
 Faites en sorte que cet utilisateur possède le projet TERRAFORM en tant que projet de connexion par défaut. 
 
+## Exo 3: Ajout d'un utilisateur existant 
+
+Par défaut, lors de l'installation d'Openstack avec Devstack, des éléments sont générés. 
+
+Parmis ces éléments, on retrouve un utilisateur nommé "demo". 
+
+Afin de tester le mécanisme d'import, recréez cet utilisateur dans le fichier user-02.tf, et à l'aide de la documentation des objet user dans terraform (voir en bas de page), importez ce dernier. 
+
+Testez avec un terraform plan que l'import c'est bien passé. 
