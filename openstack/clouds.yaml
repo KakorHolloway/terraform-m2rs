@@ -9,10 +9,10 @@
 clouds:
   openstack:
     auth:
-      auth_url: http://<adresseipdevotrevm>/identity
+      auth_url: http://172.25.79.67//identity
       username: "admin"
-      project_id: <idduprojetadminsurOpenstack>
-      password: "<votremdp>"
+      project_id: afab8556922a463aa451d455d3e06e5b
+      password: "B4teau123!"
       project_name: "admin"
       user_domain_name: "Default"
     region_name: "RegionOne"
