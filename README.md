@@ -65,3 +65,13 @@ Au besoin, redémarrez votre client powershell pour voir la commande terraform r
 
 Doc de manière générale : 
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+
+# Initialisation du projet :
+
+Modifiez le fichier clouds.yaml pour que ce dernier corresponde à votre mot de passe, votre ip et l'id du projet admin que vous trouverez comme ceci :
+
+![Alt text](openstack.png)
+
+En vous rendant dans le dossier openstack lancez la commande ```terraform init```
+
+Normalement, si la commande marche c'est que vous avez bien tout initié. 
