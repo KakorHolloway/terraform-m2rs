@@ -52,3 +52,16 @@ lancez l'installation (temps estimé d'environ 15 minutes)
 ```
 ./stack.sh
 ```
+
+# Installation de terraform en local 
+
+Téléchargez le zip suivant : 
+
+https://releases.hashicorp.com/terraform/1.14.2/terraform_1.14.2_windows_amd64.zip
+
+Mettez le binaire terraform.exe dans le dossier C:/Windows/System32
+
+Au besoin, redémarrez votre client powershell pour voir la commande terraform remonter. 
+
+Doc de manière générale : 
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
