@@ -79,3 +79,11 @@ Normalement, si la commande marche c'est que vous avez bien tout initié.
 Exercice 1 : 
 
 Créez un fichier nommé project-01.tf, et à partir de ce fichier créez un nouveau projet Openstack nommé TERRAFORM
+
+## Exo 2: 
+Créez un fichier user-01.tf
+
+Créez à partir de ce fichier un nouvel utilisateur. 
+
+Faites en sorte que cet utilisateur possède le projet TERRAFORM en tant que projet de connexion par défaut. 
+
