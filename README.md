@@ -101,3 +101,7 @@ Parmis ces éléments, on retrouve un utilisateur nommé "demo".
 Afin de tester le mécanisme d'import, recréez cet utilisateur dans le fichier user-02.tf, et à l'aide de la documentation des objet user dans terraform (voir en bas de page), importez ce dernier. 
 
 Testez avec un terraform plan que l'import c'est bien passé. 
+
+## Exo 4 : utilisation d'un data 
+
+Dans un fichier nommé role-03.tf, récupérez via un data le role reader en vu d'une utilisation future 
