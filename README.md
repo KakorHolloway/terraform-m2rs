@@ -116,3 +116,7 @@ Les variables à créer devront permettre de créer des projets vm… qui contie
 A partir de là, créez deux fichiers dev.tfvars et prod.tfvars. 
 Ces deux fichiers doivent permettre de déployer un environnement de production ou de développement. 
 Un problème va se produire avec ce mécanisme, quel est-il ? 
+
+## Exo 6
+
+Via les backends déployez un projet de prod et un projet de dev avec chacun leurs propres tfstates sans utiliser terragrunt

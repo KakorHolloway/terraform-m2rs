@@ -1,6 +1,6 @@
 resource "openstack_identity_user_v3" "ipi_user" {
   default_project_id = openstack_identity_project_v3.ipi_project.id
-  name               = "ipi_user"
+  name               = "${var.start}-ipi_user-${var.env}"
   description        = "A user"
  
   password = "B4teau123!"
