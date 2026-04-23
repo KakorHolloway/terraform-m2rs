@@ -107,3 +107,14 @@ Testez avec un terraform plan que l'import c'est bien passé.
 Dans un fichier nommé role-03.tf, récupérez via un data le role reader en vu d'une utilisation future 
 
 Via ce data, donnez le role reader à l'utilisateur ipi que vous aviez créé
+
+## Exo 5 les variables :
+
+Les variables sont pratiques pour donner des noms communs ou ne pas toucher à un script de base
+Elles ont les mêmes types que les attributs
+Les variables se déclarent dans le fichier variables.tf (par convention)
+L’appel ce fait comme cela : var.nom_variable
+Dans une chaîne la concaténation se fait comme suit « ${var.name}-suite »
+Les variables se déclarent lors de l’appel ou via un fichier nommé spécifiquement terraform.tfvars ou au format json terraform.tfvars.json ou finissant par .tfvars via la commande –var-file=monfichier.tfvars
+Si la valeur des variables n’est pas trouvée, elle sera demandée à l’utilisateur
+Par convention il vaut mieux mettre le typage pour la maintenabilité
