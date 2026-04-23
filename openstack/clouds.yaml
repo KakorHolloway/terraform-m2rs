@@ -9,9 +9,9 @@
 clouds:
   openstack:
     auth:
-      auth_url: http://172.25.79.67/identity
+      auth_url: http://172.22.179.179/identity
       username: "admin"
-      project_id: afab8556922a463aa451d455d3e06e5b
+      project_id: 1b2d8c20510e4009a9104bcc15dcb600
       password: "B4teau123!"
       project_name: "admin"
       user_domain_name: "Default"

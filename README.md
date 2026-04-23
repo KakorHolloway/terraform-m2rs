@@ -105,3 +105,5 @@ Testez avec un terraform plan que l'import c'est bien passé.
 ## Exo 4 : utilisation d'un data 
 
 Dans un fichier nommé role-03.tf, récupérez via un data le role reader en vu d'une utilisation future 
+
+Via ce data, donnez le role reader à l'utilisateur ipi que vous aviez créé
