@@ -129,3 +129,5 @@ terraform init -backend-config=path=prod/terraform.tfstate -var-file=prod.tfvars
 ## Exo 7
 
 En fonction de la variable env, si celle-ci indique prod, faites en sorte que le gabarit de la vm soit légèrement plus grand qu'à l'acoutumé. 
+
+## Pour la prochaine fois : voir les modules et évaluation à prévoir
