@@ -110,11 +110,9 @@ Via ce data, donnez le role reader à l'utilisateur ipi que vous aviez créé
 
 ## Exo 5 les variables :
 
-Les variables sont pratiques pour donner des noms communs ou ne pas toucher à un script de base
-Elles ont les mêmes types que les attributs
-Les variables se déclarent dans le fichier variables.tf (par convention)
-L’appel ce fait comme cela : var.nom_variable
-Dans une chaîne la concaténation se fait comme suit « ${var.name}-suite »
-Les variables se déclarent lors de l’appel ou via un fichier nommé spécifiquement terraform.tfvars ou au format json terraform.tfvars.json ou finissant par .tfvars via la commande –var-file=monfichier.tfvars
-Si la valeur des variables n’est pas trouvée, elle sera demandée à l’utilisateur
-Par convention il vaut mieux mettre le typage pour la maintenabilité
+Créez une infrastructure contenant une machine virtuelle, un réseau et ses dépendances pour tout faire fonctionner. (Le tout dans le projet que vous avez créé) Attention à prendre le plus petit gabarit de vm possible. 
+Mettez un début de nom identique pour toutes vos ressources, les variables seront initiées dans un fichier variables.tf
+Les variables à créer devront permettre de créer des projets vm… qui contiendrons le nom dev ou prod en fin de ressource (ex: monprojet-dev) 
+A partir de là, créez deux fichiers dev.tfvars et prod.tfvars. 
+Ces deux fichiers doivent permettre de déployer un environnement de production ou de développement. 
+Un problème va se produire avec ce mécanisme, quel est-il ? 
