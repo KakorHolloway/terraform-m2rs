@@ -10,6 +10,11 @@ Attention lors du déploiement à bien décocher la case lvm pour tout avoir dan
 
 ![Alt text](ssh.png)
 
+Fixez l'adresse ip de votre vm ubuntu avec netplan :
+
+https://oleks.ca/2024/10/05/configuration-dune-address-ip-statique-sur-ubuntu-24-04/
+
+
 ## Installation de devstack
 
 Pour installer devstack, on va créer un utilisateur dédié nommé stack (facultatif)
