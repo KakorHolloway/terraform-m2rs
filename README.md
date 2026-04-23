@@ -120,3 +120,12 @@ Un problème va se produire avec ce mécanisme, quel est-il ?
 ## Exo 6
 
 Via les backends déployez un projet de prod et un projet de dev avec chacun leurs propres tfstates sans utiliser terragrunt
+
+```
+terraform init -backend-config=path=prod/terraform.tfstate -var-file=prod.tfvars -reconfigure
+
+```
+
+## Exo 7
+
+En fonction de la variable env, si celle-ci indique prod, faites en sorte que le gabarit de la vm soit légèrement plus grand qu'à l'acoutumé. 
